@@ -32,7 +32,7 @@ docker push xuranliu/search-engine
 
 
 ## Steps Connecting to GCP
-1. Create a service account under the current project by following steps in the [tutorial] (https://cloud.google.com/docs/authentication/getting-started#creating_a_service_account).
+1. Create a GCP service account under the current project by following steps in the [tutorial](https://cloud.google.com/docs/authentication/getting-started#creating_a_service_account).
 
 2. Use the command ``export GOOGLE_APPLICATION_CREDENTIALS="KEY_PATH"`` to set the  environmenal variable for local development.
 
